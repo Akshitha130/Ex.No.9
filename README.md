@@ -1,170 +1,193 @@
-# Ex.No.9 – Exploration of Prompting Techniques for Video Generation
+# EX.NO.9 – EXPLORING PROMPTING TECHNIQUES FOR AI IMAGE AND VIDEO GENERATION
 
 ## AIM
 
-To explore different prompting techniques for AI video generation and understand how adding details about environment, motion, lighting, camera movement, and visual style improves the generated video.
+To explore different prompting techniques for generating realistic AI images and videos using progressive prompt refinement.
 
 ## OBJECTIVE
 
-To compare basic, refined, and advanced prompts and study their effect on video quality, realism, motion consistency, and cinematic appearance.
+* To understand AI image and video generation.
+* To study basic, refined, and advanced prompts.
+* To observe how prompt details affect the generated output.
+* To create a realistic tiger scene using AI generation tools.
 
-## AI MODELS USED
+## TOOLS / AI MODELS USED
 
-* ChatGPT – Prompt design
 * OpenAI Sora
-* Google Veo
 * Runway
 * Kling
+* Canva Ai
 
-# PROCEDURE
+### Supporting Tool
 
-1. Select a video scenario.
-2. Create a basic prompt.
-3. Generate the video.
-4. Add environmental and visual details.
-5. Create a refined prompt.
-6. Add camera movement, timing, and motion.
-7. Create an advanced prompt.
-8. Compare the generated videos.
-9. Observe differences in quality and consistency.
-10. Refine the prompt if required.
+* ChatGPT – Prompt design and refinement
+
+## PROCEDURE
+
+1. Select a realistic wildlife scene.
+2. Create a simple prompt.
+3. Generate the initial image.
+4. Add details to improve the prompt.
+5. Generate a refined image.
+6. Create an advanced prompt with realistic environmental details.
+7. Generate the final image.
+8. Apply similar prompts for video generation.
+9. Compare the outputs obtained from different prompt levels.
+
+
+
+### Scene Description
+
+A realistic Bengal tiger slowly walks through a dense forest during early morning while sunlight passes through the trees and light mist moves around the forest floor.
+
 
 ---
 
-# VIDEO – Underwater City Exploration
 
-## Scene Description
-
-A futuristic underwater city is explored by a small submarine, surrounded by glowing buildings, marine life, and blue ocean light.
-
-### 1. Basic Prompt
+### 1. BASIC PROMPT
 
 **Prompt:**
 
-```text
-A submarine exploring an underwater city.
-```
+> A realistic tiger walking through a forest in the morning.
 
 **Expected Output:**
 
-The video should show a submarine moving through an underwater environment with a futuristic city in the background.
+A simple video showing a tiger walking through a forest.
 
-**Expected Visual Characteristics:**
+**Motion Characteristics:**
 
-* Submarine
-* Underwater city
-* Basic swimming motion
-* Blue ocean background
-* Simple camera movement
+* Tiger walking
+* Natural body movement
+* Forest background
+* Morning environment
+
+## Image / Video Placeholder
+
+https://drive.google.com/file/d/1VNhjytJE15KHEKZ_4pAlgkS9iMfBe7Qi/view?usp=drivesdk
+
 
 ---
 
-### 2. Refined Prompt
+
+
+
+### 2. DETAILED PROMPT
 
 **Prompt:**
 
-```text
-A futuristic submarine slowly exploring a glowing underwater city,
-with transparent buildings, colorful lights, swimming fish,
-floating particles, and blue ocean light.
-```
+> A realistic Bengal tiger slowly walking through a dense green forest during early morning, with soft sunlight filtering through the trees and light mist surrounding the forest floor. The camera follows the tiger smoothly.
 
 **Expected Output:**
 
-The video should show a more detailed underwater city with glowing buildings, marine life, particles, and atmospheric blue lighting.
+A more realistic wildlife video with improved environmental details and camera movement.
 
-**Expected Visual Characteristics:**
+**Motion Characteristics:**
 
-* Glowing futuristic buildings
-* Slow submarine movement
-* Colorful lights
-* Swimming fish
-* Floating particles
-* Blue underwater atmosphere
+* Natural tiger walking
+* Smooth camera tracking
+* Moving leaves
+* Light mist movement
+* Sunlight through trees
+
+
+## Image / Video Placeholder
+
+
+https://drive.google.com/file/d/1cJWC5SgsR3tYaOEU3HhIk58wBb_DHbeN/view?usp=drivesdk
+
 
 ---
 
-### 3. Final Advanced Prompt
+
+
+
+### 3. FINAL ADVANCED PROMPT
 
 **Prompt:**
 
-```text
-Create a highly realistic cinematic video of a futuristic submarine
-exploring an enormous underwater city. Begin with a wide establishing
-shot showing glowing glass buildings and the deep ocean surrounding
-the city.
-
-Slowly track the camera behind and slightly above the submarine as it
-moves through the underwater streets. Show schools of fish swimming
-around the buildings and small particles drifting naturally through
-the water.
-
-Use deep blue ambient lighting with cyan and soft golden highlights
-from the city buildings. Add realistic reflections on the submarine,
-volumetric light rays from the ocean surface, bubbles, and underwater
-haze.
-
-Maintain smooth submarine movement, consistent building structures,
-natural fish motion, stable camera tracking, realistic water physics,
-cinematic depth of field, and photorealistic science-fiction style
-throughout the video.
-```
+> Generate a photorealistic cinematic wildlife video of a Bengal tiger slowly walking through a dense tropical forest during early morning. Show realistic movement of the tiger's legs, muscles, tail, ears, and head while walking naturally. The camera smoothly tracks the tiger from a low side angle and gradually moves closer. Tall trees, thick green vegetation, wet leaves, and light morning mist surround the scene. Golden sunlight passes through the canopy, creating realistic shadows and volumetric light rays. Include subtle movement of leaves caused by a gentle breeze. Maintain realistic tiger anatomy, detailed fur, natural motion, cinematic depth of field, stable camera movement, and wildlife-documentary quality.
 
 **Expected Output:**
 
-The final video should show a cinematic underwater city with smooth submarine movement, realistic marine life, glowing buildings, underwater particles, volumetric lighting, and consistent camera motion.
+A cinematic and photorealistic video of a tiger naturally walking through a misty forest with realistic camera movement and environmental motion.
 
-**Expected Visual Characteristics:**
 
-* Wide establishing shot
-* Tracking camera
-* Realistic underwater motion
-* Glowing futuristic city
-* Marine life
-* Volumetric light rays
-* Realistic reflections
-* Cinematic science-fiction style
+## Image / Video Placeholder
+
+
+https://drive.google.com/file/d/1NhJQxYlZGRocZlshxPw76UqemeUeMPhL/view?usp=drivesdk
+
+
 
 ---
+
+
+
+
+
+
+
+
+
 
 # PROMPT PROGRESSION ANALYSIS
 
-| Prompt Level | Main Characteristics                 | Expected Output           |
-| ------------ | ------------------------------------ | ------------------------- |
-| Basic        | Subject and action                   | Simple video              |
-| Refined      | Environment, lighting and atmosphere | More detailed video       |
-| Advanced     | Motion, camera, timing and style     | Realistic cinematic video |
-
-# OBSERVATION
-
-The basic prompt produces a simple underwater scene. The refined prompt improves the environment, lighting, and atmosphere. The advanced prompt provides greater control over **camera movement, subject motion, lighting, textures, and consistency**.
-
-# COMPARISON REPORT
-
-| Parameter   | Basic Prompt          | Advanced Prompt          |
-| ----------- | --------------------- | ------------------------ |
-| Subject     | General submarine     | Detailed submarine       |
-| Environment | Basic underwater city | Detailed futuristic city |
-| Motion      | Simple                | Realistic                |
-| Camera      | Basic                 | Tracking                 |
-| Lighting    | Generic               | Cinematic                |
-| Atmosphere  | Limited               | Particles and haze       |
-| Style       | Generic               | Photorealistic           |
-| Consistency | Moderate              | High                     |
+| Prompt Level    | Main Focus                     | Expected Quality |
+| --------------- | ------------------------------ | ---------------- |
+| Basic Prompt    | Tiger + forest                 | Basic            |
+| Refined Prompt  | Environment + lighting         | Improved         |
+| Advanced Prompt | Details + atmosphere + realism | Highly realistic |
 
 
 
 
 
-# RESULT
+
+## GENERATION PARAMETERS TO CONSIDER
+
+* **Resolution:** High
+* **Aspect Ratio:** 16:9
+* **Lighting:** Early morning / golden light
+* **Camera:** Smooth tracking shot
+* **Style:** Photorealistic
+* **Environment:** Dense tropical forest
+* **Motion:** Natural tiger walking
+* **Duration:** 5–10 seconds for video
+* **Quality:** High detail
 
 
 
 
-The experiment demonstrated that progressively refined prompts produce better-quality AI-generated videos with improved visual detail, motion, camera control, and cinematic appearance.
+## OBSERVATION
+
+As more descriptive details are added to the prompt, the generated output becomes more specific and realistic. Details such as tiger anatomy, forest environment, lighting, mist, camera movement, and natural motion improve the overall quality.
 
 
 
-# CONCLUSION
 
-Prompt engineering plays an important role in AI video generation. Basic prompts are useful for describing the main idea, while refined and advanced prompts provide greater control over **environment, motion, camera movement, lighting, and visual style**. Therefore, detailed and well-structured prompts can produce more realistic and coherent videos.
+
+
+## COMPARISON REPORT
+
+| Feature    | Basic Prompt  | Refined Prompt | Advanced Prompt             |
+| ---------- | ------------- | -------------- | --------------------------- |
+| Tiger      | Basic         | Detailed       | Highly detailed             |
+| Forest     | Simple        | Dense          | Highly detailed             |
+| Lighting   | General       | Morning light  | Golden volumetric light     |
+| Motion     | Basic         | Natural        | Detailed realistic movement |
+| Camera     | Not specified | Smooth         | Cinematic tracking          |
+| Atmosphere | Basic         | Mist           | Mist + depth + light rays   |
+| Realism    | Moderate      | High           | Photorealistic              |
+
+
+
+
+
+
+## RESULT
+
+Realistic AI-generated images and videos of a Bengal tiger walking through a dense forest during early morning were created using progressive prompt refinement.
+
+## CONCLUSION
+
+The experiment demonstrates that progressively adding **subject details, environment, lighting, camera movement, atmosphere, and motion** to a prompt can produce more controlled and realistic AI-generated images and videos.
